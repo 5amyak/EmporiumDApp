@@ -58,9 +58,9 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Node JS with web3.js library](https://web3js.readthedocs.io/en/1.0/getting-started.html) - For integration of web app with blockchain.
-* [Remix ide](https://remix.ethereum.org) - For testing, compiling and deploying contracts.
-* [Truffle framework](https://truffleframework.com/) - For ethereum blockchain development environment .
+* [Node JS with web3.js library](https://web3js.readthedocs.io/en/1.0/getting-started.html) - For integration of web app with blockchain
+* [Remix ide](https://remix.ethereum.org) - For testing, compiling and deploying contracts
+* [Truffle framework](https://truffleframework.com/) - For ethereum blockchain development environment
 * [Solidity](http://solidity.readthedocs.io/en/v0.4.24/) - Creating smart contracts
 * [Ropsten testnet](https://ropsten.etherscan.io/) - A testnet  blockchain of Ethereum
 * [Metamask ](https://metamask.io/) - For HD wallet
