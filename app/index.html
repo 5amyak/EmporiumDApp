@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <title>Emporium</title>
+  </head>
+  <body>
+  	<!-- navbar starts from here -->
+  	<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+  	  <a class="navbar-brand" style="color:white; padding-right:300px;" href="#"><h3><strong>Emporium</strong></h3><p style="padding-left: 50px;">The Next Generation Advertisement Platform</p></a>
+  	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  	    <span class="navbar-toggler-icon"></span>
+  	  </button>
+  	  <div class="collapse navbar-collapse" id="navbarNav">
+  	    <ul class="navbar-nav">
+  	      <li class="nav-item active">
+  	        <a class="nav-link" style="color:white;" href="#"><h4>Home</h4> <span class="sr-only">(current)</span></a>
+  	      </li>
+  	      <li class="nav-item">
+  	        <a class="nav-link" style="color:white;" href="#about"><h4>About us</h4></a>
+  	      </li>
+  	      <li class="nav-item">
+  	        <a class="nav-link" style="color:white;" href="#Products"><h4>Products</h4></a>
+  	      </li>
+  	      <li class="nav-item">
+  	        <a class="nav-link" style="color:white;" href="#advertise"><h4>advertisement</h4></a>
+  	      </li>
+  	    </ul>
+  	  </div>
+  	</nav>
+    
+  	<!-- Couresel starts from here -->
+  	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  	  <ol class="carousel-indicators">
+  	    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+  	    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+  	    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  	  </ol>
+  	  <div class="carousel-inner">
+  	    <div class="carousel-item active">
+  	      <img class="d-block w-100" style="height:500px; padding:10px;" src="https://www.digitalvidya.com/wp-content/uploads/2017/05/Online_advertising_market-1170x630.jpg" alt="First slide">
+  	    </div>
+  	    <div class="carousel-item">
+  	      <img class="d-block w-100" style="height:500px; padding:10px;" src="http://www.jeewangarg.com/blog_image/1515851089_online-advertising.png" alt="Second slide">
+  	    </div>
+  	  </div>
+  	  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+  	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  	    <span class="sr-only">Previous</span>
+  	  </a>
+  	  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+  	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  	    <span class="sr-only">Next</span>
+  	  </a>
+  	</div>
+
+  	<!-- about the project starts here -->
+  	<div class="jumbotron" style="padding:10px;" id="about">
+  	  <center><h1 class="display-5"><strong>Welcome to Emporium</strong></h1></center>
+  	  <center><p class="my-4" style="padding-left:150px; padding-right:150px;">Online marketing and retail stores but the most powerful source of influence comes from the buyer's family and peer groups. Emporium, a web app which deals with the above issue by targeting social influencers from sites that can potentially influence customers using existing popular social sites like Facebook, Twitter and Quora etc. Users select a particular post in the Emporium site related to their area of expertise to post on a social networking site and are rewarded according to the number of likes received and users who liked and share will also be awarded. Emporium deals with utilizing the power of small scale social influencers to increase the sales by using a bottom up rather than top down approach. The transactions are committed using the blockchain technology for the purpose of more transparency, decentralization, stable and secure transfers.</p></center>
+  	  <!-- purchase your token from here -->
+  	<form>
+  	  <div class="row">
+  	    <div class="col" style="padding-left:100px;">
+  	    	<h5><strong>Purchase Token Here</strong></h5>
+  	    <div class="row">
+  	    	<div class="col">
+  	      		<input type="number" id="buy" class="form-control" placeholder="Enter No of Token">
+  	   		</div>
+  	   		<div class="col">
+  	      		<button type="button" id="getTokenBtn" onclick="buyTokens()" class="btn btn-primary">Purchase</button>
+  	   		</div>
+  	   		<span id="buy-msg"></span>
+  		</div>
+  	    </div>
+  	    <div class="col"><br>
+  	      <p>Price Per Token : <span style="color:green" id="token-cost"></span></p>
+  	      <p>Contract Current Balance : <span style="color:green" id="contract-balance"></span></p>
+  	    </div>
+  	  </div>
+  	</form>
+
+  	<!-- advertise your product here --><br><br><br>
+  	<center><h1 class="display-5" id="advertise"><strong>Advertise your product here</strong></h1></center><br>
+
+  	<div class="row">
+  	    <div class="col">
+  	<center><h3 class="display-5"><strong>Product Details</strong></h3></center><br>
+  	    <div style="padding-right:100px; padding-left:100px;">
+  	    	<div class="form-group" >
+  	    	    <input type="text" class="form-control" id="prdTitle" aria-describedby="emailHelp" placeholder="Product Name">
+  	    	  </div>
+  	    	  <div class="form-group">
+  	    	    <input type="text" class="form-control" id="prdLink" placeholder="Product URL">
+  	    	  </div>
+  	    	  <div class="form-group">
+  	    	    <input type="text" class="form-control" id="prdImgLink" placeholder="Product Image Link">
+  	    	  </div>
+  	    	  <div class="form-group">
+  	    	    <input type="number" class="form-control" id="prdInfluenceNum" placeholder="No of Influencer to allow share">
+  	    	  </div>
+  	    	  <div class="form-group">
+  	    	    <input type="number" class="form-control" id="prdInfluencePrice" placeholder="Price per Influence">
+  	    	  </div>
+  	    	  <textarea class="form-control" id="prdDescr" data-constraints='@Required @Length(min=20,max=999999)' rows="3" placeholder="Product Description"></textarea><br>
+  	    	  <center><button class="btn btn-primary" onclick="addProduct()">Submit Product Details</button></center>
+  	    </div>  
+  	    </div>
+
+  	</div><br><br><br>
+
+  	    <!-- product to share -->
+  		<center><h1 class="display-5"><strong>Products to share</strong></h1></center><br>
+  		<div class="row" id="products">
+      </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
