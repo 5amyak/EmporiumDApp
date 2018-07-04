@@ -13,7 +13,9 @@ These instructions will get you a copy of the project up and running on your loc
     * Create or select an account on ropsten test net 
     * You can buy fake ether from [ropsten faucet](https://faucet.metamask.io/)
     * You can get account and transaction info on [etherscan](https://ropsten.etherscan.io/)
+
 * To deploy any contract on blockchain using truffle you need to specify the **mnemonic** of your HDWallet and your **infura api-key** at their respective placeholders in the file _truffle.js_
+
 * The application uses truffle library to create blockchain development environment.
     * To compile and migrate the contracts on the ropsten blockchain
     ```
