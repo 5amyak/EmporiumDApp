@@ -1,60 +1,27 @@
 # Emporium
 
-While buying a product online, the reviews about the product influence our buying decision. But, a recommendation by a close friend or family member holds a sentimental value. Emporium is an advertisement platform where anyone can post advertisements about their products. Anyone can choose the products that they like and share it on social platform, recommend it to their friends and family and in this process - they also earn  money!
+While buying a product online, the reviews about the product influences our buying decision. But, a recommendation by a close friend or family member holds a sentimental value. Emporium is an advertisement platform where anyone can post advertisements about their products. Anyone can choose the products that they like and share it on social platform, recommend it to their friends and family and in this process - they also earn  money!
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+* [Download](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en) Metamask Chrome extension - The application uses the account selected in metamask to operate
+    * Create or select an account on ropsten test net 
+    * You can buy fake ether from [ropsten faucet](https://faucet.metamask.io/)
+    * You can get account and transaction info on [etherscan](https://ropsten.etherscan.io/)
+* To deploy any contract on blockchain using truffle you need to specify the **mnemonic** of your HDWallet and your **infura api-key** at their respective placeholders in the file _truffle.js_
+* The application uses truffle library to create blockchain development environment.
+    * To compile and migrate the contracts on the ropsten blockchain
+    ```
+    truffle migrate
+    ```
+    * Since truffle uses webpack, to run the application 
+    ```
+    npm run dev
+    ```
 
 ## Built With
 
@@ -77,6 +44,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Detailed [Working of Ethereum](https://medium.com/@preethikasireddy/how-does-ethereum-work-anyway-22d1df506369)
+* Medium [Hello World Voting DApp](https://medium.com/@mvmurthy/full-stack-hello-world-voting-ethereum-dapp-tutorial-part-1-40d2d0d807c2) Tutorial series
+* [Tutorial to create and deploy DApp in ethereum](https://medium.com/@merunasgrincalaitis/the-ultimate-end-to-end-tutorial-to-create-and-deploy-a-fully-descentralized-dapp-in-ethereum-18f0cf6d7e0e)
