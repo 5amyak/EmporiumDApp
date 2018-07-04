@@ -1,6 +1,7 @@
-# Emporium
+# Emporium 
 
 While buying a product online, the reviews about the product influences our buying decision. But, a recommendation by a close friend or family member holds a sentimental value. Emporium is an advertisement platform where anyone can post advertisements about their products. Anyone can choose the products that they like and share it on social platform, recommend it to their friends and family and in this process - they also earn  money!
+_[Slides](https://www.slideshare.net/ArunDPrabhu/emporium-104169463)_ on the product.
 
 ## Getting Started
 
