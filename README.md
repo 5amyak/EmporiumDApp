@@ -26,7 +26,7 @@ These instructions will get you a copy of the project up and running on your loc
     npm run dev
     ```
 
-## Built With
+## Built With 
 
 * [Node JS with web3.js library](https://web3js.readthedocs.io/en/1.0/getting-started.html) - For integration of web app with blockchain.
 * [Remix ide](https://remix.ethereum.org)- For testing, compiling and deploying contracts.
