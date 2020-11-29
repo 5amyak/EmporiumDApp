@@ -39,7 +39,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 * [Samyak Jain](https://github.com/samyak-sopho)
 * [Suraj Kumar Mall](https://github.com/surajmall)
-* [Arun D Prabhu](https://github.com/adp01)
+* [Arun D Prabhu](https://github.com/arundprabhu)
 
 ## License
 
